@@ -65,6 +65,8 @@ public class Main {
 
                 add(student);
                 main(null);
+            }else {
+                main(null);
             }
         }else if(option == 2){
             remove();
