@@ -93,11 +93,13 @@ public class Main {
     }
 
     public static void display(){
-        System.out.println("List of students\n**************");
+        System.out.println("List of students\n****************");
         for(Student temp : myList){
             System.out.print(temp.getStname()+" ");
             System.out.print(temp.getAddress());
-            System.out.println(" Total :  "+temp.total());
+            System.out.print(" Total :  "+temp.total());
+            System.out.print(" | Avg :  "+temp.avg());
+            System.out.println(" | Grade :  "+temp.grade());
         }
         System.out.println();
     }

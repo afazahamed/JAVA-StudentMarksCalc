@@ -46,4 +46,24 @@ public class Marks {
         int total = getMk1() +getMk2() +getMk3();
         return total;
     }
+
+    public double avg(){
+        if(getMk3() == 0){
+            double avg = total() / 2;
+            return avg;
+        }else {
+            double avg = total() / 3;
+            return avg;
+        }
+    }
+
+    public String grade(){
+        String grd;
+        if(avg()>= 50){
+            grd = "Pass";
+        }else {
+            grd = "Fail";
+        }
+        return grd;
+    }
 }
