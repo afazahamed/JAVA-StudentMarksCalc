@@ -10,6 +10,12 @@ public class Student extends Marks {
         this.address = address;
     }
 
+    Student(String stname, String address, int mk1, int mk2){
+        super(mk1,mk2);
+        this.stname = stname;
+        this.address = address;
+    }
+
     public void setStName(String nam){
 
         this.stname = nam;

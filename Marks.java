@@ -12,6 +12,12 @@ public class Marks {
         this.mk3 = mk3;
     }
 
+    public Marks(int mk1, int mk2){
+        this.mk1 = mk1;
+        this.mk2 = mk2;
+        this.mk3 = mk3;
+    }
+
     public int getMk1() {
         return mk1;
     }
@@ -40,6 +46,4 @@ public class Marks {
         int total = getMk1() +getMk2() +getMk3();
         return total;
     }
-
-
 }
