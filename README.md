@@ -1,10 +1,11 @@
  JAVA-StudentMarksCalc
-
+ 
+<img src="https://lh3.googleusercontent.com/drive-viewer/AJc5JmRGgFSS-CPuIcqfnNamZO4BVRL7dM4E8fjNttN5SKrftRoy8VWp6GTK8SCmG2zaYJmmTyeUmhE=w2880-h1642" width="100">
 
 # Enter student personal Details and Marks to find total and store in LinkedList
 ### STUDENT MARKS CALCULATION with OOP
 
-**Linked list** has been used Inheritance has been used - Student extends Marks
+**`Linked list`** has been used Inheritance has been used - Student extends Marks
 Can store students who are having 3 Marks & 2 Marks
 
 TryCatch used - Remove *(When try to remove Linked list data when it's empty)*
@@ -59,4 +60,5 @@ TryCatch used - Remove *(When try to remove Linked list data when it's empty)*
                 public class Marks extends MarksFormat
 
 
-            
+
+
