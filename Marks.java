@@ -1,6 +1,6 @@
 package com.company;
 
-public class Marks {
+public class Marks extends MarksFormat {
 
     private int mk1;
     private int mk2;

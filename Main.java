@@ -6,6 +6,11 @@ Inheritance has been used - Student extends Marks
   - Can store students who are having 3 Marks & 2 Marks
 Polymorphism used - Student / Marks constructors overloaded
 TryCatch used - Remove (When try to remove Linked list data when it's empty)
+
+Inheritance - Student extends Marks
+Encapsulation - Getters & Setters (Student & Marks)
+Polymorphism - Student / Marks constructors overloaded
+Abstraction - MarksFormat extended to Marks
  */
 
 package com.company;
