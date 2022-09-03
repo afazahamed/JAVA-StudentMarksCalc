@@ -5,3 +5,5 @@ abstract class MarksFormat {
     abstract double avg();
     abstract String grade();
 }
+
+// test
