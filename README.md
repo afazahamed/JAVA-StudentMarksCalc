@@ -1,5 +1,5 @@
  JAVA-StudentMarksCalc
- 
+
 <img src="https://lh3.googleusercontent.com/drive-viewer/AJc5JmRGgFSS-CPuIcqfnNamZO4BVRL7dM4E8fjNttN5SKrftRoy8VWp6GTK8SCmG2zaYJmmTyeUmhE=w2880-h1642" width="100">
 
 # Enter student personal Details and Marks to find total and store in LinkedList
@@ -18,11 +18,12 @@ TryCatch used - Remove *(When try to remove Linked list data when it's empty)*
 
 
 
-#### **Inheritance** - Student extends Marks
+#### **Inheritance** - Student extends Marks [Click here for code](https://github.com/Dilshard/JAVA-StudentMarksCalc/blob/main/Student.java)
                 public class Student extends Marks
                 public class Marks extends MarksFormat
                 abstract class MarksFormat
-#### **Encapsulation** - Getters & Setters (Student & Marks)
+
+#### **Encapsulation** - Getters & Setters (Student & Marks) [Click here for code](https://github.com/Dilshard/JAVA-StudentMarksCalc/blob/main/Marks.java)
                 private String stname;
                 private String address;
 
@@ -35,7 +36,7 @@ TryCatch used - Remove *(When try to remove Linked list data when it's empty)*
                     {
                         return stname;
                     }
-#### **Polymorphism** - Student / Marks constructors overloaded
+#### **Polymorphism** - Student / Marks constructors overloaded [Click here for code](https://github.com/Dilshard/JAVA-StudentMarksCalc/blob/main/Student.java)
                 Student(String stname, String address, int mk1, int mk2, int mk3)
                 {
                     super(mk1,mk2,mk3);
@@ -49,7 +50,7 @@ TryCatch used - Remove *(When try to remove Linked list data when it's empty)*
                     this.stname = stname;
                     this.address = address;
                 }
-#### **Abstraction** - MarksFormat extended to Marks
+#### **Abstraction** - MarksFormat extended to Marks [Click here for code](https://github.com/Dilshard/JAVA-StudentMarksCalc/blob/main/MarksFormat.java)
                 abstract class MarksFormat 
                 {
                     abstract int total();
@@ -58,7 +59,3 @@ TryCatch used - Remove *(When try to remove Linked list data when it's empty)*
                 }
                 //Extended to Marks Class
                 public class Marks extends MarksFormat
-
-
-
-
